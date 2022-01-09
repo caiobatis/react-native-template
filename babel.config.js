@@ -13,15 +13,9 @@ module.exports = {
           atoms: './src/components/atoms',
           contexts: './src/contexts',
           hooks: './src/hooks',
-          integration: './src/integration',
           molecules: './src/components/molecules',
-          navigation: './src/navigation',
           organisms: './src/components/organisms',
-          screens: './src/screens',
-          src: './src',
-          templates: './src/components/templates',
-          test: './test',
-          utils: './src/utils'
+          screens: './src/screens'
         }
       }
     ],

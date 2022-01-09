@@ -42,18 +42,10 @@
       "atoms/*": ["src/components/atoms/*"],
       "contexts/*": ["src/contexts/*"],
       "hooks/*": ["src/hooks/*"],
-      "integration/*": ["src/integration/*"],
       "molecules": ["src/components/molecules"],
       "molecules/*": ["src/components/molecules/*"],
-      "navigation/*": ["src/navigation/*"],
       "organisms": ["src/components/organisms"],
       "organisms/*": ["src/components/organisms/*"],
-      "screens": ["src/screens"],
-      "src/*": ["src/*"],
-      "templates": ["src/components/templates"],
-      "templates/*": ["src/components/templates/*"],
-      "test/*": ["test/*"],
-      "utils": ["src/utils"]
     } /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */,
     // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
     // "typeRoots": [],                       /* List of folders to include type definitions from. */

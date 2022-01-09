@@ -7,4 +7,13 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ReactNativeTemplate.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ReactNativeTemplate.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:reactnativetemplate.xcodeproj">
+   </FileRef>
 </Workspace>

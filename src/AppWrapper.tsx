@@ -5,9 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context'
 
 const AppWrapper: FunctionComponent = ({ children }) => (
   <GestureHandlerRootView style={{ flex: 1 }}>
-    <SafeAreaProvider>
-      {children}
-    </SafeAreaProvider>
+    <SafeAreaProvider>{children}</SafeAreaProvider>
   </GestureHandlerRootView>
 )
 

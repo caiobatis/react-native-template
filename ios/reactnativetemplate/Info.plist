@@ -51,18 +51,11 @@
 	<key>NSCameraUsageDescription</key>
 	<string>We need your permission to open the camera</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>We need your permission to open the photo library</string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Assistant_Bold.ttf</string>
-		<string>Assistant_ExtraBold.ttf</string>
-		<string>Assistant_ExtraLight.ttf</string>
-		<string>Assistant_Light.ttf</string>
-		<string>Assistant_Medium.ttf</string>
-		<string>Assistant_Regular.ttf</string>
-		<string>Assistant_SemiBold.ttf</string>
 		<string>DMSans_Bold.ttf</string>
 		<string>DMSans_BoldItalic.ttf</string>
 		<string>DMSans_Italic.ttf</string>

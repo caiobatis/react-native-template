@@ -12,22 +12,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1A5E4D98969449E08700D05A /* Assistant_ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B732EDF32BD943B4ABEA3DD6 /* Assistant_ExtraBold.ttf */; };
 		1C25709C690F4E538E496F6C /* DMSans_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86E1B037BA241628D89989F /* DMSans_BoldItalic.ttf */; };
-		28E8D860157044BAA5F677A0 /* Assistant_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 645E145EEF674FECA51BD449 /* Assistant_Bold.ttf */; };
 		2A7A5064AD6E42EA80081BE7 /* DMSans_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33AFEB04F634F339EFF057A /* DMSans_Regular.ttf */; };
-		44CB5D42F1D648078BF6C6FE /* Assistant_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E08FF0CA130431384BCD37E /* Assistant_Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		82A3D84359C0E10F433BB079 /* libPods-ReactNativeTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14312BCD7B761FFA95F67634 /* libPods-ReactNativeTemplate.a */; };
 		A8DEEBD46CC4442B8AB7DC60 /* DMSans_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A30BD944E0046C5BEFC9D7F /* DMSans_Italic.ttf */; };
-		A955EA7868C8408E9EE1563D /* Assistant_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A09F190A3745E4AB500330 /* Assistant_Regular.ttf */; };
 		B71BF4CD83A14DD796D64D60 /* DMSans_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F9EA9F1195F4ABC89BDBCEE /* DMSans_Medium.ttf */; };
-		CCDF7EC849CA4E5D865CA611 /* Assistant_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 209C9341EC01497AA474429E /* Assistant_Light.ttf */; };
 		CDCB103B26DFB12000F82575 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB103A26DFB12000F82575 /* File.swift */; };
 		DB6BA160D4B341A1B1B011C7 /* DMSans_MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDAC6B9A6B484093A3C85BEB /* DMSans_MediumItalic.ttf */; };
 		F14729E9F7C54C6687C4B4EE /* DMSans_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C79E80118F40447F9DDCDA38 /* DMSans_Bold.ttf */; };
-		F283E6BBE86A431994808471 /* Assistant_ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60D5CC41273B47789FAE15E2 /* Assistant_ExtraLight.ttf */; };
-		F9F5C3677E10494F90910011 /* Assistant_SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D297A988AD814AB296784275 /* Assistant_SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -265,7 +258,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativetemplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeTemplate" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -298,13 +291,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				28E8D860157044BAA5F677A0 /* Assistant_Bold.ttf in Resources */,
-				1A5E4D98969449E08700D05A /* Assistant_ExtraBold.ttf in Resources */,
-				F283E6BBE86A431994808471 /* Assistant_ExtraLight.ttf in Resources */,
-				CCDF7EC849CA4E5D865CA611 /* Assistant_Light.ttf in Resources */,
-				44CB5D42F1D648078BF6C6FE /* Assistant_Medium.ttf in Resources */,
-				A955EA7868C8408E9EE1563D /* Assistant_Regular.ttf in Resources */,
-				F9F5C3677E10494F90910011 /* Assistant_SemiBold.ttf in Resources */,
 				F14729E9F7C54C6687C4B4EE /* DMSans_Bold.ttf in Resources */,
 				1C25709C690F4E538E496F6C /* DMSans_BoldItalic.ttf in Resources */,
 				A8DEEBD46CC4442B8AB7DC60 /* DMSans_Italic.ttf in Resources */,
@@ -753,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativetemplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -18,7 +18,7 @@ export type RootStackScreen<RouteName extends keyof RootStackParamList> = Functi
 const Root = createNativeStackNavigator<RootStackParamList>()
 
 const RootStackNavigator: FunctionComponent = () => {
-  const initialRouteName = 'Onboarding'
+  const initialRouteName = 'Tabs'
 
   return (
     <NavigationContainer>

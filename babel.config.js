@@ -15,7 +15,8 @@ module.exports = {
           hooks: './src/hooks',
           molecules: './src/components/molecules',
           organisms: './src/components/organisms',
-          screens: './src/screens'
+          screens: './src/screens',
+          utils: './src/utils'
         }
       }
     ],

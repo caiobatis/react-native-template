@@ -4,9 +4,8 @@ import { FunctionComponent } from 'react'
 
 import { enableFreeze } from 'react-native-screens'
 
+import { AppWrapper } from 'atoms'
 import { RootStackNavigator } from 'organisms'
-
-import AppWrapper from './AppWrapper'
 
 enableFreeze(true)
 

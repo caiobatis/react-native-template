@@ -1,6 +1,6 @@
 import { FunctionComponent, memo, PropsWithChildren, ReactNode } from 'react'
 
-import styled, { css } from 'styled-components/native'
+import styled from 'styled-components/native'
 
 import { Flex, Space, Text } from 'atoms'
 import { BackButton } from 'molecules'
@@ -25,7 +25,7 @@ const Header: FunctionComponent<Props> = ({
           <Space horizontal offset={12} />
         </>
       )}
-      <Text type="h2">{title}</Text>
+      <Text type="lg">{title}</Text>
       {!!right && (
         <>
           <Space horizontal />
@@ -42,10 +42,8 @@ export const Container = styled(Flex).attrs({
   paddingHorizontal: 16,
   paddingTop: 24
 })`
-  ${({ theme }) => css`
-    border-bottom-color: ${theme.line.color};
-    border-bottom-width: ${theme.line.width}px;
-  `}
+  border-bottom-color: #000;
+  border-bottom-width: 1px;
 `
 
 export default memo(Header)

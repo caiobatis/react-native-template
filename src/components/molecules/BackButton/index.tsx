@@ -3,7 +3,7 @@ import { FunctionComponent, memo } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { TouchableOpacity } from 'react-native'
 
-import { Icon } from 'atoms'
+import { Text } from 'atoms'
 
 type Props = {
   color?: string
@@ -18,7 +18,7 @@ const BackButton: FunctionComponent<Props> = ({ color, onPress }) => {
       hitSlop={{ bottom: 8, left: 8, right: 8, top: 8 }}
       onPress={onPress || navigation.goBack}
     >
-      <Icon.ArrowForward {...{ color }} />
+      <Text type="sm">back</Text>
     </TouchableOpacity>
   )
 }

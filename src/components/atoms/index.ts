@@ -4,4 +4,6 @@ export { default as Flex } from './Flex'
 
 export { default as Theme } from './Theme'
 
+export { default as Text } from './Text'
+
 export { default as Space } from './Space'

@@ -2,10 +2,6 @@ module.exports = {
   plugins: [
     'react-native-reanimated/plugin',
     [
-      'module:react-native-dotenv',
-      { allowUndefined: false, moduleName: 'react-native-dotenv', safe: true }
-    ],
-    [
       'module-resolver',
       {
         root: ['.'],

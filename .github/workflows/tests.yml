@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   codecov:
-    name: lint
+    name: tests
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository

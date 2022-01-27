@@ -1,11 +1,11 @@
-import { render } from '@testing-library/react-native'
+import TestRenderer from 'react-test-renderer'
 
 import App from './App'
 
 describe('App', () => {
   it('renders correctly', () => {
-    const { toJSON } = render(<App />)
+    const component = TestRenderer.create(<App />)
 
-    expect(toJSON()).toMatchSnapshot()
+    expect(component.toJSON()).toMatchSnapshot()
   })
 })

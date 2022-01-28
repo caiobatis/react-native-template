@@ -1,11 +1,11 @@
-import TestRenderer from 'react-test-renderer'
+import Renderer from 'react-test-renderer'
 
 import App from './App'
 
 describe('App', () => {
   it('renders correctly', () => {
-    const component = TestRenderer.create(<App />)
+    const component = Renderer.create(<App />).toJSON()
 
-    expect(component.toJSON()).toMatchSnapshot()
+    expect(component).toMatchSnapshot()
   })
 })
